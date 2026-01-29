@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TSRTC General Bus Pass Application</title>
+</head>
+<body>
+<center>
+    <img src="./Gemini_Generated_Image_g8pa1vg8pa1vg8pa.png" height="200" width="800">
+</center>
+
+
+<form>
+    <center>
+    <fieldset style="width: 800px;">
+        <legend style="color: blue;"><b>Applicant Details</b></legend>
+
+        <table cellpadding="10" >
+            <tr>
+                <td><label>Name<span style="color: rgb(146, 23, 23)">*</font></label></td>
+                <td>
+                    <input type="text" maxlength="20">
+                </td>
+                <td>Father's / Guardian's Name<span style="color: red">*</font></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth <span style="color: red">*</font></td>
+                <td>
+                    <input type="text" placeholder="dd/mm/yyyy">
+                </td>
+                <td>Gender <span style="color: red">*</font></td>
+                <td>
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Male
+                </td>
+            </tr>
+                </td>
+            </tr>
+
+            <tr>
+                <td>WhatsApp No <span style="color: red">*</font></td>
+                <td><input type="text"></td>
+                <td>Aadhaar No<span style="color: red">*</font></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>E-mail Id <span style="color: red">*</font></td>
+                <td><input type="email"></td>
+                <td>Photo <span style="color: red">*</font></td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+        </center>
+    </fieldset>
+    
+</form>
+
+<form>
+  
+            </form>
+        </fieldset>
+    </center>
+    <center>
+
+        <fieldset style="width:800px;">
+            <legend style=color:blue;><b>Residential Address
+                    Details</b></legend>
+            <form>
+                <table cellpadding="10" cellspacing="10" width="800">
+                    <tr>
+                        <td colspan="2"><label for="f">Applicant's Address<span style="color:red">*</span></label>
+                            <textarea id="f" rows="4" cols="25"></textarea>
+                        </td>
+                        <td><label for="p">District<span style=color:red>*</label>
+                            <input id="p" type="location">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="mandal">Mandal<span style="color:red">*</span></label>
+                            <input type="text" id="mandal">
+                        </td>
+                        <td><label for="village">Village<span style="color:red">*</span></label>
+                            <input type="text" id="village">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pin">Pin Code<span style="color:red">*</span></label>
+                            <input type="text" id="pin">
+                        </td>
+                    </tr>
+            </form>
+            </table>
+        </fieldset>
+    </center>
+    <center>
+        <fieldset style="width:800px;">
+            <legend style="color: blue; border-radius:6px;"><b>Pass Type Details</b>
+            </legend>
+            <form>
+                <table cellspacing="20" width="800">
+                    <tr>
+                        <td><label for="c">City<span style="color:red">*</span></label>
+                            <select id="c">
+                                <option value="">Select City</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Secunderabad">Secunderabad</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="p">Pass Type<span style="color:red">*</span></label>
+                            <select id="p">
+                                <option value"">Select Pass Type</option>
+                                <option value="Regular Pass">Regular Pass</option>
+                                <option value="Express Pass">Express Pass</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="a">From Place District<span style="color:red">*</span></label>
+                            <select id="a">
+                                <option value"">----Select----</option>
+                                <option value="hyderabad">hyderabad</option>
+                                <option value="secunderabad">secunderabad</option>
+                        </td>
+                        </select>
+
+                        <td><label for="b">To Place District<span style="color:red">*</span></label>
+                            <select id="b">
+                                <option value"">----Select----</option>
+                                <option value="uppal">uppal</option>
+                                <option value="warangal">warangal</option>
+                        </td>
+                        </select>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="a">From Place<span style="color:red">*</span></label>
+                            <select id="a">
+                                <option value"">----Select----</option>
+                                <option value="hyderbad">hyderbad</option>
+                                <option value="warangal">warangal</option>
+
+                            </select>
+                        </td>
+                        <td><label for="d">To Place</label>
+                            <select id="d">
+                                <option value"">----Select----</option>
+                                <option value="kphb">kphb</option>
+                                <option value="jbs">jbs</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="n">Route<span style="color:red"> (From-Via-To)</span></label>
+                            <select id="n">
+                                <option value"">select></option>
+                                <option value="miyapur">miyapur</option>
+                                <option value="kukktapally">kukktapally</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </fieldset>
+    </center>
+    <center>
+        <fieldset style="width:800px;">
+            <legend style="color: blue;"><b>Model of Payment&Pass
+                    Collection</b></legend>
+            <form>
+                <table cellspacing="20" width="800">
+                    <tr>
+                        <td><label for="a"></label>Payment Mode<span style="color:red">*</span>
+                            <select id="a">
+                                <option value"">Select Payment Mode</option>
+                                <option value="cash">cash</option>
+                                <option value="online">online</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="b">Pass Delivery Mode<span style="color:red">*</span></label>
+                            <select id="b">
+                                <option value"">Select Pass Delivery Mode</option>
+                                <option value="home">home</option>
+                                <option value="collage">collage</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="a"> Center at Which
+                                <br> You Want to Collect<br> Pass<span style="color:red">*</span></label>
+                            <select id="a" style="width:30%">
+                                <option value"">----Select----</option>
+                                <option value="bus">Bus Depot</option>
+                                <option value="bus1">Online </option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </fieldset>
+    </center>
+    <br>
+    <center>
+        <img src="./cap.jpeg">
+    </center>
+    <center>
+        <input type="text">
+    </center>
+    <br>
+    <center>
+        <input style="background-color:rgb(131, 124, 163)" style="color:white" type="submit">
+    </center>
+  
+
+
+
+    </form>
+</body>
+
+</html>
+
+</body>
+</html>
